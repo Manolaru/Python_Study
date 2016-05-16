@@ -22,12 +22,15 @@ class User:
         self.all_emails_from_home_page = all_emails_from_home_page
 
     def __repr__(self):
-        return "%s:%s:%s" % (self.id, self.lname, self.fname)
+        return "%s:%s:%s:%s:%s:%s" % (self.id, self.lname, self.fname, self.address, self.all_phones_from_home_page, self.all_emails_from_home_page)
 
     def __eq__(self, other):
         return (self.id is None or other.id is None or self.id == other.id) \
                and self.clear(self.lname) == self.clear(other.lname) \
-               and self.clear(self.fname) == self.clear(other.fname)
+               and self.clear(self.fname) == self.clear(other.fname)\
+               and self.clear(self.address) == self.clear(other.address)\
+               and self.clear(self.all_phones_from_home_page) == self.clear(other.all_phones_from_home_page)\
+               and self.clear(self.all_emails_from_home_page) == self.clear(other.all_emails_from_home_page)
 
     def id_or_max(self):
         if self.id:
@@ -36,4 +39,4 @@ class User:
             return maxsize
 
     def clear(self, s):
-        return re.sub("[ ]","",s)
+        return re.sub("[()\n ]","",s)
