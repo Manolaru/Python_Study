@@ -4,3 +4,4 @@ selenium
 jsonpickle
 pony
 pymysql
+c:\tools\mysql-connector-python-2.0.4.zip
