@@ -1,3 +1,4 @@
+
 Scenario Outline: Add new group
   Given a group list
   Given a group with <name>, <header> and <footer>
@@ -6,8 +7,8 @@ Scenario Outline: Add new group
 
   Examples:
   | name  | header  | footer  |
-#  | name1 | header1 | footer1 |
-#  | name2 | header2 | footer2 |
+  | name1 | header1 | footer1 |
+  | name2 | header2 | footer2 |
 
 
 Scenario: Delete a group
