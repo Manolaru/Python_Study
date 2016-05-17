@@ -1,5 +1,5 @@
 
-from pytest_bdd import given,when, then
+from pytest_bdd import given, when, then
 from model.group import Group
 import random
 
@@ -7,7 +7,7 @@ import random
 def group_list(db):
     return db.get_group_list()
 
-@given ('a group with <name>,<header> and <footer>')
+@given ('a group with <name>, <header> and <footer>')
 def new_group(name, header, footer):
     return Group (name=name, header=header, footer=footer)
 
@@ -28,11 +28,11 @@ def non_empty_group_list(db, app):
         app.group.create(Group(name="some name"))
     return db.get_group_list()
 
-@given('a non-empty group list')
+@given('a random group from the list')
 def random_group(non_empty_group_list):
     return random.choice(non_empty_group_list)
 
-@when ('I delete a group to the list')
+@when ('I delete a group from the list')
 def delete_group(app, random_group):
     app.group.delete_group_by_id(random_group.id)
 
