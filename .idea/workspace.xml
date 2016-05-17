@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5faac667-4af5-4d26-adc6-2480132089b3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_add_user_to_group_remove_user_from_group.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_check_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_emails.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd/group_scenarios.py" afterPath="$PROJECT_DIR$/bdd/group_scenarios.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd/group_steps.py" afterPath="$PROJECT_DIR$/bdd/group_steps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd/groups.feature" afterPath="$PROJECT_DIR$/bdd/groups.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_db_matches_ui.py" afterPath="$PROJECT_DIR$/test/test_db_matches_ui.py" />
-    </list>
+    <list default="true" id="5faac667-4af5-4d26-adc6-2480132089b3" name="Default" comment="" />
     <ignored path="Pyt_Study.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -534,7 +525,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1612" height="868" extended-state="1" />
+    <frame x="-9" y="-9" width="1612" height="868" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24760689" sideWeight="0.46804124" order="0" side_tool="false" content_ui="combo" />
